@@ -61,3 +61,36 @@
     font-size: 1.2em;
     padding: 5px;
 }
+
+@media (max-width: 479px) {
+    .content-container {
+      padding: 0;
+      max-height: 100vh;
+    }
+    .container-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-image-title h1 {
+        font-size: 3.5rem;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .company-name {
+        display: flex;
+        justify-content: left;
+    }
+    .company-name h2 {
+        font-size: 2.5rem
+    }
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-grow: 1;
+    }
+  }
