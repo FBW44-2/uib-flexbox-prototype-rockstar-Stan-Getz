@@ -71,6 +71,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        max-width: 70vw;
     }
     .container-image-title h1 {
         font-size: 3.5rem;
@@ -83,14 +85,20 @@
     .company-name {
         display: flex;
         justify-content: left;
+        align-items: baseline;
     }
     .company-name h2 {
-        font-size: 2.5rem
+        font-size: 1.1em;
+        padding: 0 10px;
     }
     .nav-bar {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: left;
-        flex-grow: 1;
+        
+    }
+    .nav-bar li, a {
+        font-size: 1em;
+        padding: 0 2px 0 5px;
     }
   }
