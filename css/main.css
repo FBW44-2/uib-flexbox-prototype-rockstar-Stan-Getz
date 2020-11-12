@@ -11,19 +11,18 @@
 .container-image {
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 85vh;
     align-items: center;
     justify-content: center;
 }
 
 .container-image img {
     background-color: rgb(255, 69, 0, 0.4);
-    border-radius: 150px;
-    padding: 20px 10px;
-    max-width: 100px;
-    max-height: 100px;
-    display: flex;
-    
+    border-radius: 100px;
+    padding: 30px 30px;
+    max-width: 150px;
+    max-height: 150px;
+    /* display: flex; */    
 }
 
 .container-image-title h1 {
@@ -37,6 +36,7 @@
     flex-direction: row;
     justify-content: stretch;
     border-top: 3px solid orangered;
+    padding: 0 15px;
 }
 
 .company-name h2 {
@@ -59,5 +59,5 @@
     text-decoration: none;
     color: orangered;
     font-size: 1.2em;
-    padding: 10px;
+    padding: 5px;
 }
