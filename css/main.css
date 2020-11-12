@@ -1,0 +1,20 @@
+.content-container {
+    min-width: 100vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    border: 10px solid orange;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    max-width: 200px;
+}
+
+.main img {
+    background-color: orange;
+    border-radius: 200px;
+    padding: 0 50px;
+}
