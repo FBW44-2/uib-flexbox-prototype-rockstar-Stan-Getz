@@ -11,8 +11,8 @@
 .container-image {
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
-    /* align-items: center; */
+    height: 70vh;
+    align-items: center;
     justify-content: center;
 }
 
@@ -32,14 +32,32 @@
     display: flex;
 }
 
-.nav-bar {
-    display: flex;
-    align-items: flex-end;
+.footer-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: stretch;
+    border-top: 3px solid orangered;
 }
 
-.nav-bar li {
+.company-name h2 {
+    text-transform: uppercase;
+    color: orangered;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.nav-bar li, a {
     display: inline;
     text-transform: uppercase;
     text-decoration: none;
     color: orangered;
+    font-size: 1.2em;
+    padding: 10px;
 }
