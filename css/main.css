@@ -3,18 +3,36 @@
     min-height: 100vh;
     margin: 0 auto;
     padding: 0;
-    border: 10px solid orange;
+    border: 10px solid orangered;
+    display: flex;
+    flex-direction: column;
 }
 
-.main {
+.container-image {
     display: flex;
     flex-direction: column;
     /* height: 100vh; */
-    max-width: 200px;
+    /* align-items: center; */
+    justify-content: center;
 }
 
-.main img {
-    background-color: orange;
-    border-radius: 200px;
-    padding: 0 50px;
+.container-image img {
+    background-color: rgb(255, 69, 0, 0.4);
+    border-radius: 150px;
+    padding: 20px 10px;
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    
+}
+
+.container-image-title h1 {
+    font-size: 3em;
+    color: orangered;
+    display: flex;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: flex-end;
 }
